@@ -1,0 +1,122 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+h1{
+text-align:center;
+font-size:50px;
+
+
+}
+body
+{
+    justify-content: space-between;
+    min-height: 100vh;
+    background:#cfdaff;
+}
+.container
+{
+    margin-left: 450px;
+    margin-bottom :50px;
+    display: flex;
+    justify-content: left;
+
+}
+.list
+{
+    background:#23de3c;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+ 
+}
+.wrapper
+{
+    background:#b5e1f5;
+    width: 450px;
+    border:1px solid;
+
+}
+.form 
+{
+    padding: 25px 30px;
+}
+.form header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid 
+}
+.form form{
+    margin: 20px 0;
+}
+
+.form .name-details
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .field label{
+    margin-bottom: 2px;
+}
+.form .field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;   
+}
+.form .field input{
+    outline: none;
+}
+.form .input input:focus,
+.form .input input:valid{
+  border-color:#0a0807;
+}
+.form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #0fbe35c8;
+    border-radius: 5px;
+
+}
+.form .image input{
+    font-size: 17px;
+}
+.form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    background:#85a1ff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+#task-list
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size:17px;
+
+}
+th, td{
+    padding: 10px;
+}
+button{
+    background-color: black;
+    color:white;
+    padding: 5px;
+}
